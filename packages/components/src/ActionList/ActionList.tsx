@@ -229,29 +229,23 @@ export const ActionList = styled(ActionListLayout)<ActionListProps>`
   ${reset}
 
   border-spacing: 0;
-  font-size: ${({ theme }) => theme.fontSizes.xsmall};
+  font-size: ${({ theme }) => theme.fontSizes.small};
   width: 100%;
 
   td,
   th {
-    padding: 0 ${({ theme }) => theme.space.medium};
+    padding: ${({ theme: { space } }) => `${space.small}  ${space.medium}`};
   }
 
   tbody td {
     color: ${({ theme }) => theme.colors.text4};
-    height: 3.25rem;
-  }
-
-  thead th {
-    color: ${({ theme }) => theme.colors.text5};
-    height: 3.5rem;
   }
 
   tr {
     td,
     th {
       &:last-child {
-        padding-right: 0;
+        padding: 0;
       }
     }
   }

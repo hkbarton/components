@@ -80,7 +80,7 @@ export const ActionListCheckbox = styled(ActionListCheckboxLayout)`
   align-items: center;
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'inherit')};
   display: flex;
-  height: 3rem;
+  height: 1.5rem;
   justify-content: center;
-  width: 3rem;
+  width: 1.5rem;
 `
