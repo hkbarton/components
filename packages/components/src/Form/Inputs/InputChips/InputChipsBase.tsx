@@ -295,9 +295,10 @@ export const InputChipsBaseInternal = forwardRef(
 
     function handleHiddenInputBlur(e: FocusEvent<HTMLInputElement>) {
       // Unless blur event is caused by clicking on a chip, deselect all chips
+      const nextFocusTarget = e.relatedTarget || document.activeElement
       if (
-        e.relatedTarget &&
-        (e.relatedTarget as HTMLElement).parentNode !==
+        nextFocusTarget &&
+        (nextFocusTarget as HTMLElement).parentNode !==
           e.currentTarget.parentNode
       ) {
         deselectAll()

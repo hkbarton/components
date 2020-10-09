@@ -63,16 +63,17 @@ export function useBlur<
       closeList()
       return
     }
+    const nextFocusTarget = e?.relatedTarget || document.activeElement
     // we on want to close only if focus rests outside the select
     const popoverCurrent = listRef ? listRef.current : null
     if (popoverCurrent) {
       const focusInList =
-        popoverCurrent && popoverCurrent.contains(e.relatedTarget as Node)
+        popoverCurrent && popoverCurrent.contains(nextFocusTarget as Node)
 
       if (focusInList && state !== ComboboxState.INTERACTING) {
         // focus landed inside the select, keep it open
         transition && transition(ComboboxActionType.INTERACT)
-      } else if (!focusInList && e.relatedTarget !== inputElement) {
+      } else if (!focusInList && nextFocusTarget !== inputElement) {
         // focus landed outside the select, close it
         closeList()
       }
