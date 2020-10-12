@@ -23,27 +23,13 @@
  SOFTWARE.
 
  */
+import { FocusEvent } from 'react'
 
-export * from './getNextFocusTarget'
-export * from './getWindowedListBoundaries'
-export * from './HoverDisclosure'
-export * from './moveFocus'
-export * from './undefinedCoalesce'
-export * from './useAnimationState'
-export * from './useClickable'
-export * from './useControlWarn'
-export * from './useReadOnlyWarn'
-export * from './useCallbackRef'
-export * from './useFocusTrap'
-export * from './useForkedRef'
-export * from './useGlobalHotkeys'
-export * from './useHovered'
-export * from './useID'
-export * from './useMouseDownClick'
-export * from './usePopper'
-export * from './useScrollLock'
-export * from './useToggle'
-export * from './useWrapEvent'
-export * from './useMeasuredElement'
-export * from './useMouseDragPosition'
-export * from './usePreviousValue'
+/**
+ * ONLY use for blur events, returns the “next focused element” – event.relatedTarget if available
+ * (modern browsers, where document.activeElement is not updated until after the blur event)
+ * and document.activeElement as a fallback (IE11, where it’s updated before the blur event).
+ * @param event the blur event
+ */
+export const getNextFocusTarget = (event?: FocusEvent) =>
+  event?.relatedTarget || document.activeElement
