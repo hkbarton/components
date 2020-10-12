@@ -84,7 +84,7 @@
     "react-is": "^16.13.1",
     "react-test-renderer": "^16.14.0",
     "styled-components": "^5.2.0",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.4",
     "webpack": "^4.44.2"
   },
   "resolutions": {
