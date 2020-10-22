@@ -24,7 +24,6 @@
 
  */
 
-export * from './getNextFocusTarget'
 export * from './getWindowedListBoundaries'
 export * from './HoverDisclosure'
 export * from './moveFocus'

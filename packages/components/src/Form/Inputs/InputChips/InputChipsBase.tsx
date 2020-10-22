@@ -43,7 +43,7 @@ import { Chip } from '../../../Chip'
 import { inputHeight } from '../height'
 import { InputTextContent, InputText, InputTextBaseProps } from '../InputText'
 import { AdvancedInputControls } from '../AdvancedInputControls'
-import { getNextFocusTarget, useForkedRef, useWrapEvent } from '../../../utils'
+import { useForkedRef, useWrapEvent } from '../../../utils'
 import { visuallyHiddenStyle } from '../../../VisuallyHidden'
 
 export interface InputChipsInputControlProps {
@@ -296,10 +296,9 @@ export const InputChipsBaseInternal = forwardRef(
 
     function handleHiddenInputBlur(e: FocusEvent<HTMLInputElement>) {
       // Unless blur event is caused by clicking on a chip, deselect all chips
-      const nextFocusTarget = getNextFocusTarget(e)
       if (
-        nextFocusTarget &&
-        (nextFocusTarget as HTMLElement).parentNode !==
+        e.relatedTarget &&
+        (e.relatedTarget as HTMLElement).parentNode !==
           e.currentTarget.parentNode
       ) {
         deselectAll()
