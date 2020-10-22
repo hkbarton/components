@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `Select` with `isFilterable` and > 100 options incorrectly showing "No options" when deleting filter text
 - `Select` in a `Dialog` or `Popover` losing focus after clicking an option
-- `Select` on a mobile device or with "tap to click" on a touch pad reopens immediately after clicking on an option
+- `Select` on a mobile device or with "tap to click" on a track pad reopens immediately after clicking on an option
 - `InputTimeSelect` can accept a time that is not included in the select dropdown options
 - `FieldInline` refactored to use MS-compatible grid (IE11 compatibility)
   - `FieldCheckbox`
