@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `IconButton` supports `toggle` prop (uses `key` color when toggled and `aria-pressed`)
 - Improved test coverage / added image-snapshots
 - `ScheduleOutline` Icon artwork
+- `Dialog` & `Drawer` now support semantic sizes (`xxsmall - xlarge`)
+- `Dialog` now supports `placement` - `center` (default), `top` & `cover`
+- `Drawer` now supports `placement` - `left` & `right` (default)
 
 ### Changed
 
@@ -45,6 +48,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Drawer` no longer supports `backdrop` prop for customizing backdrop presentation
 - `IconButton` support for `color` (`neutral` for all now)
 - `ToggleSwitch` no longer supports `size` (now always consistent with `Checkbox` & `Radio`)
+- `Dialog` no longer supports `maxWidth` (it's now always `100%` - use `width`)
+- `Drawer` no longer supports `height` (use `minHeight`)
+- `Dialog` no longer supports `surfaceStyles` (use built-in props instead)
 
 ## [0.9.19] - 2020-10-15
 
