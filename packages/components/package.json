@@ -55,7 +55,7 @@
     "@types/uuid": "^8.3.0",
     "csstype": "^3.0.3",
     "jest-styled-components": "^6.3.4",
-    "react": "^16.14.0",
+    "react": "^17.0.2",
     "react-dom": "^16.14.0",
     "react-is": "^16.13.1",
     "storybook": "^6.0.26",
