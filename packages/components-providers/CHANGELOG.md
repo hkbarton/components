@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.0](https://github.com/looker-open-source/components/compare/v0.9.19...v2.0.0-alpha.0) (2021-05-05)
+
+
+### Bug Fixes
+
+* **StyleDefender:** Should not override base font-size ([#2262](https://github.com/looker-open-source/components/issues/2262)) ([1600efa](https://github.com/looker-open-source/components/commit/1600efae152effaef082afb2b0856339d880adcc))
+* InputDate & InputDateRange accessibility improvements ([#1964](https://github.com/looker-open-source/components/issues/1964)) ([3257127](https://github.com/looker-open-source/components/commit/325712776610fea1d4d77fb23414f84ff083ebe0))
+* **FocusTrap:** Overly aggressive return focus behavior ([#1959](https://github.com/looker-open-source/components/issues/1959)) ([bbea788](https://github.com/looker-open-source/components/commit/bbea788c25e26a1e81d95c4968c3004684eef464))
+* Focusing hidden input element ([#1952](https://github.com/looker-open-source/components/issues/1952)) ([edd2267](https://github.com/looker-open-source/components/commit/edd22673710cd471f90816f2ebf46740e8ec1d87))
+* **FocusTrap:** Return focus behavior on nested focus traps ([#1886](https://github.com/looker-open-source/components/issues/1886)) ([78bfd87](https://github.com/looker-open-source/components/commit/78bfd87532c65cf33bc8fc00941387a3249a139e))
+* On build properly set package.json "files" key ([#1806](https://github.com/looker-open-source/components/issues/1806)) ([c81c4bb](https://github.com/looker-open-source/components/commit/c81c4bb625c58ede49957aad90ac8d9d7b2c4b79))
+* Properly build ems/cjs/ts for easy deep-imports ([#1804](https://github.com/looker-open-source/components/issues/1804)) ([2a523cd](https://github.com/looker-open-source/components/commit/2a523cd70b079944376c6dc87c18202e05a97b01))
+* Properly configure build for tree-shaking support ([9202b72](https://github.com/looker-open-source/components/commit/9202b72bc5fb99eb3e1af7d9e56f3dc15b1df2a4))
+
+
+### Features
+
+* CSS Reset now uses a "defensive" rather than "offensive" strategy (no more GlobalStyles) ([#2120](https://github.com/looker-open-source/components/issues/2120)) ([266e2f2](https://github.com/looker-open-source/components/commit/266e2f25c3396eee5a5b2d2be234c7ccad608811))
+* Export i18n strings and utilities ([#2006](https://github.com/looker-open-source/components/issues/2006)) ([75f750b](https://github.com/looker-open-source/components/commit/75f750b5da86f1a04ccab7a3d277d3699afd9318))
+* **FontFaceLoader:** new component to support flexible font loading ([#1954](https://github.com/looker-open-source/components/issues/1954)) ([c16690b](https://github.com/looker-open-source/components/commit/c16690beed86235f94fd79b9d8b8e619c9fccf92))
+* customize icon label for localization ([#1932](https://github.com/looker-open-source/components/issues/1932)) ([2f59ccb](https://github.com/looker-open-source/components/commit/2f59ccb83e95cdd94cf66958d34b922f09641bb9))
+* Focus on first tabbable node when Dialog opens ([#1927](https://github.com/looker-open-source/components/issues/1927)) ([1aac687](https://github.com/looker-open-source/components/commit/1aac6870eb276963d6b089d670f367eba70fc79f)), closes [#1941](https://github.com/looker-open-source/components/issues/1941)
+* i18n support ([#1881](https://github.com/looker-open-source/components/issues/1881)) ([8377f95](https://github.com/looker-open-source/components/commit/8377f95c143c317f3defae1fa9154c9b9377f831))
+* **components:** nestedMenu on MenuItem ([#1780](https://github.com/looker-open-source/components/issues/1780)) ([7a1fada](https://github.com/looker-open-source/components/commit/7a1fada4523dd0805279baed974dc27836f32207))
+
+
+### Reverts
+
+* Revert "v0.9.20" ([40024e8](https://github.com/looker-open-source/components/commit/40024e828dd4a6e1614a584a9c25dc2c4c5e8f96))
+* Revert "v0.9.20" ([fcf5a83](https://github.com/looker-open-source/components/commit/fcf5a83711274a6b6ab43e915dfba1d04bbbcc2c))
+
+
+
+
+
 # [1.2.0-alpha.2](https://github.com/looker-open-source/components/compare/v1.2.0-alpha.1...v1.2.0-alpha.2) (2021-04-28)
 
 

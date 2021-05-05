@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.0](https://github.com/looker-open-source/components/compare/v0.9.19...v2.0.0-alpha.0) (2021-05-05)
+
+
+### Bug Fixes
+
+* Properly build ems/cjs/ts for easy deep-imports ([#1804](https://github.com/looker-open-source/components/issues/1804)) ([2a523cd](https://github.com/looker-open-source/components/commit/2a523cd70b079944376c6dc87c18202e05a97b01))
+* Properly configure build for tree-shaking support ([9202b72](https://github.com/looker-open-source/components/commit/9202b72bc5fb99eb3e1af7d9e56f3dc15b1df2a4))
+
+
+### Features
+
+* i18n support ([#1881](https://github.com/looker-open-source/components/issues/1881)) ([8377f95](https://github.com/looker-open-source/components/commit/8377f95c143c317f3defae1fa9154c9b9377f831))
+
+
+
+
+
 # [1.2.0-alpha.1](https://github.com/looker-open-source/components/compare/v1.2.0-alpha.0...v1.2.0-alpha.1) (2021-04-26)
 
 **Note:** Version bump only for package @looker/prettier-config
