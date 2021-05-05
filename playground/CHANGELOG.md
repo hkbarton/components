@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.0](https://github.com/looker-open-source/components/compare/v0.9.19...v2.0.0-alpha.0) (2021-05-05)
+
+
+### Bug Fixes
+
+* Export all Date & Time-related components from a sub-location to prevent bundle-size impacts ([#2025](https://github.com/looker-open-source/components/issues/2025)) ([158f3b4](https://github.com/looker-open-source/components/commit/158f3b460302acfa8407023a4ebfe89859e04bc1))
+
+
+### Features
+
+* Arrow key navigation persists selected item (Menu, Tabs) ([#1761](https://github.com/looker-open-source/components/issues/1761)) ([dc2400f](https://github.com/looker-open-source/components/commit/dc2400f6c4237e326f7ccd4a1eb4c93d962d900b))
+* i18n support ([#1881](https://github.com/looker-open-source/components/issues/1881)) ([8377f95](https://github.com/looker-open-source/components/commit/8377f95c143c317f3defae1fa9154c9b9377f831))
+
+
+### Reverts
+
+* Revert "v0.9.20" ([40024e8](https://github.com/looker-open-source/components/commit/40024e828dd4a6e1614a584a9c25dc2c4c5e8f96))
+* Revert "v0.9.20" ([fcf5a83](https://github.com/looker-open-source/components/commit/fcf5a83711274a6b6ab43e915dfba1d04bbbcc2c))
+
+
+
+
+
 # [1.2.0-alpha.2](https://github.com/looker-open-source/components/compare/v1.2.0-alpha.1...v1.2.0-alpha.2) (2021-04-28)
 
 **Note:** Version bump only for package playground

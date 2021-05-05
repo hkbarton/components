@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.0](https://github.com/looker-open-source/components/compare/v0.9.19...v2.0.0-alpha.0) (2021-05-05)
+
+
+### Bug Fixes
+
+* **IconButton:** Match focus ring to toggleColor ([#2282](https://github.com/looker-open-source/components/issues/2282)) ([31df370](https://github.com/looker-open-source/components/commit/31df37044b086f459cdd16a8c0d38fbdb04d1218))
+* Removed 'label' from CompatibleHTMLProps interface ([#1930](https://github.com/looker-open-source/components/issues/1930)) ([0f43673](https://github.com/looker-open-source/components/commit/0f43673e04e9a596d479b6e40d7b4ad5f385a659))
+* **design-tokens:** generateTheme now tolerates poorly encoded font stack ([#1915](https://github.com/looker-open-source/components/issues/1915)) ([dfac189](https://github.com/looker-open-source/components/commit/dfac189ca421f6a55906f4ae3395bcabdd110c9b))
+* **theme:** Enable sanitizeFontFace to properly quote font-faces in font-family ([#1893](https://github.com/looker-open-source/components/issues/1893)) ([4aed07e](https://github.com/looker-open-source/components/commit/4aed07ea1c8278e5fd0188de7123111319f7e0f7))
+* On build properly set package.json "files" key ([#1806](https://github.com/looker-open-source/components/issues/1806)) ([c81c4bb](https://github.com/looker-open-source/components/commit/c81c4bb625c58ede49957aad90ac8d9d7b2c4b79))
+* Properly build ems/cjs/ts for easy deep-imports ([#1804](https://github.com/looker-open-source/components/issues/1804)) ([2a523cd](https://github.com/looker-open-source/components/commit/2a523cd70b079944376c6dc87c18202e05a97b01))
+* Properly configure build for tree-shaking support ([9202b72](https://github.com/looker-open-source/components/commit/9202b72bc5fb99eb3e1af7d9e56f3dc15b1df2a4))
+* tintOrShadeUiColor now works with dark color and high mixAmount value ([#1827](https://github.com/looker-open-source/components/issues/1827)) ([6c2b8cc](https://github.com/looker-open-source/components/commit/6c2b8cc8befcda1e842cb9dd592496b39353c250))
+
+
+### Features
+
+* **design-tokens:** Add support for new color slots - calculation, dimension & measure ([#2250](https://github.com/looker-open-source/components/issues/2250)) ([74de869](https://github.com/looker-open-source/components/commit/74de8692c86206029cac9b74d2f85455f9b78ae1))
+* **Theme:** generateTheme customizations now supports body and title slots ([#2255](https://github.com/looker-open-source/components/issues/2255)) ([e15c7eb](https://github.com/looker-open-source/components/commit/e15c7eb7a6ff046ac817da8d8fb1642051bc70a2))
+* Add aliases for text color to allow for upstream flexibility ([#1862](https://github.com/looker-open-source/components/issues/1862)) ([4c2b399](https://github.com/looker-open-source/components/commit/4c2b399e19407cd07fc394f1193988817e349621))
+* CSS Reset now uses a "defensive" rather than "offensive" strategy (no more GlobalStyles) ([#2120](https://github.com/looker-open-source/components/issues/2120)) ([266e2f2](https://github.com/looker-open-source/components/commit/266e2f25c3396eee5a5b2d2be234c7ccad608811))
+* **FontFaceLoader:** new component to support flexible font loading ([#1954](https://github.com/looker-open-source/components/issues/1954)) ([c16690b](https://github.com/looker-open-source/components/commit/c16690beed86235f94fd79b9d8b8e619c9fccf92))
+* i18n support ([#1881](https://github.com/looker-open-source/components/issues/1881)) ([8377f95](https://github.com/looker-open-source/components/commit/8377f95c143c317f3defae1fa9154c9b9377f831))
+
+
+### Reverts
+
+* Revert "v0.9.20" ([40024e8](https://github.com/looker-open-source/components/commit/40024e828dd4a6e1614a584a9c25dc2c4c5e8f96))
+* Revert "v0.9.20" ([fcf5a83](https://github.com/looker-open-source/components/commit/fcf5a83711274a6b6ab43e915dfba1d04bbbcc2c))
+
+
+
+
+
 # [1.2.0-alpha.2](https://github.com/looker-open-source/components/compare/v1.2.0-alpha.1...v1.2.0-alpha.2) (2021-04-28)
 
 
