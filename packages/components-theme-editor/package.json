@@ -18,7 +18,7 @@
   "dependencies": {
     "@looker/components": "^0.9.19",
     "@looker/design-tokens": "^0.9.17",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/react": "^16.9.53",
