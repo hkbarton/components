@@ -9785,10 +9785,10 @@ eslint-plugin-standard@5.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-5.0.0.tgz#c43f6925d669f177db46f095ea30be95476b1ee4"
   integrity sha512-eSIXPc9wBM4BrniMzJRBm2uoVuXz2EPa+NXPk2+itrVt+r5SbKFERx/IgrK/HmfjddyKVz2f+j+7gBRvu19xLg==
 
-eslint-plugin-testing-library@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.1.1.tgz#b9f225a0bb1f2912167494b3dd19482ed1f18adf"
-  integrity sha512-6TF47yTDb+ATTMBf96sxgg90c2D4xLjORksUhPWHJ3HkQkTO0PBy/Bxn8vfz9AyiuNSdiMDmt2xSrU1LcEJPPA==
+eslint-plugin-testing-library@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.2.0.tgz#80a95b86538901ce256aafef9090320bfbc42a1c"
+  integrity sha512-do+F2gQPLHjzXRl8E4/5WwXZSAOvSvuewxCO/Km6aLk4g0UVFDy5CtlpmDT83q3Hx2urR9Cvb02ai9cPQbbXHQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.21.0"
 
