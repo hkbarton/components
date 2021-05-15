@@ -27,7 +27,7 @@
     "gatsby-plugin-typescript": "^2.12.1",
     "gatsby-source-filesystem": "^2.9.0",
     "lodash": "^4.17.20",
-    "prism-react-renderer": "^1.1.1",
+    "prism-react-renderer": "^1.2.0",
     "react": "^16.14.0",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.14.0",
