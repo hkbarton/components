@@ -20,7 +20,7 @@
   "dependencies": {
     "@styled-system/props": "^5.1.5",
     "@styled-system/should-forward-prop": "5.1.5",
-    "@types/styled-system": "^5.1.11",
+    "@types/styled-system": "^5.1.12",
     "lodash": "^4.17.20",
     "polished": "^4.0.5",
     "styled-system": "^5.1.5"
